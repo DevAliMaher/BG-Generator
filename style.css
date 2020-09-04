@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;
+
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right,#FBAB7E, #F7CE68);
+    text-align: center;
+}
+
+section svg {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+    font-family: 'Acme', sans-serif;
+    font-size: 100px;
+    padding-top: 55px;
+    margin-bottom: 30px;
+}
+
+.color {
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    margin: 0 20px;
+    margin-bottom: 40px;
+}
+
